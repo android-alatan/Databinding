@@ -23,7 +23,7 @@ androidxTest-junit = "1.1.3"
 androidxTest-core = "1.4.0"
 roboletric = "4.5.1"
 android-compat = "1.3.1"
-compose = "1.0.3"
+compose = "1.1.1"
 
 # test
 test-powermock = "2.0.9"
