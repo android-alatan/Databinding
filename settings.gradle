@@ -1,0 +1,17 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url = "https://jitpack.io"
+            content {
+                includeGroupByRegex("com\\.github\\.android-alatan.*")
+            }
+        }
+
+    }
+}
+rootProject.name = "Databinding"
+include ":databinding-observables", ":databinding-observables-rx", ":databinding-observables-flow"
+include ":compose-observables-compat", ":coroutine-test-util"
